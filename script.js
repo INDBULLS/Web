@@ -48,6 +48,12 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+    var typed = new Typed(".typing-3", {
+        strings: ["Membership", "Exclusive Event Slot", "Paid Slot", "And Many More..."],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 
     // owl carousel script
     $('.carousel').owlCarousel({
